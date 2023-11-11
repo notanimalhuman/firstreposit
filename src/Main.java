@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(dev(14));
+        System.out.println("Результат: " + dev(14));
     }
 
     public static int dev(int n) {
