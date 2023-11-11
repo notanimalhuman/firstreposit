@@ -5,9 +5,9 @@ public class Main {
     }
 
     public static int dev(int n) {
-        int result = 0;
+        int result = 20;
         for (int count = 0; count < n; count++) {
-            result = result + count;
+            result = result - count;
         }
         return result + 1;
     }
